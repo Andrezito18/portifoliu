@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+
+
+.sidebar {
+    width: 20%;
+    background-color: #D9D9D9;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    height: 100%;
+
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.profile a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.main-content {
+    flex-grow: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-left: 20%;
+    
+}
+
+#eu{
+    background-image: url('fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-weight: bold;
+    line-height: 1.2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    
+}
+
+.container2 {
+background-color: white;
+width: 100%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+}
+
+.container3 {
+    background-color: white;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.container4 {
+    background-color: white;
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+.container5 {
+    background-color: white;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+.texto1 {
+    text-align: justify;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: black;
+}
+
+.texto2{
+    color: black;
+   
+}
+
+h3 {color:black;
+    margin-top: 50px;
+ }
+.conhecimentos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.conhecimento {
+    width: 200px;
+}
+.conhecimento img {
+    width: 100px;
+    height: 100px;
+    
+}
+.conhecimento p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.html-css {   
+    border-top: 3px solid red;
+}
+.csharp {
+    border-top: 3px solid green;
+}
+.sql {
+    border-top: 3px solid blue;
+}
+.ambiente {
+    border-top: 3px solid yellow;
+}
+
+.TamanhoHtmlcss{
+    width: 200px;
+}
+
+.TamanhoLogP{
+    width: 204.6px;
+}
+
+.TamanhoBD{
+    width: 191px ;
+}
+
+.TamanhoAmb{
+    width: 200px;
+}
+.texto-habilidade{
+    color:black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 170px;
+    font-size: 25px;
+    
+}
+
+.texto-habilidadeReversa{
+    color:black;
+    text-align: justify;
+    margin-left: 170px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.alinharEsquerda{
+    display: block;
+    margin-left: 80px;
+}
+
+.alinharDireita{
+    display: block;
+    margin-right: 80px ;
+}
+
+.habilidade{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+.reversa{
+    flex-direction: row-reverse;
+    padding-right: 80px;
+}
+
+
+
+h4 {
+    color:black;
+    margin-top: 50px;
+}
+
+h5{
+font-size: 45px;
+}
+
+#cont{
+    margin-top: 6vh;
+    padding-left: 25%;
+    grid-template-rows: 4vh 4vh 4vh 4vh;
+    text-align: left;
+}
+
+#cont input{
+    height: 5vh;
+    width: 55vh;
+}
+#enviar{
+    width: 20vh;
+    height: 6vh;
+    
+}
+
+button{
+    background-color: #7c7979;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    height: 15vh;
+    font-size: 30px;
+    margin-left: 30vh;
+  
+}
+
+.Ogani{
+    color: black;
+    text-align: left;
+    padding-left: 25%;
+    font-size: 45px;
+    padding-top: 6vh;
+    padding-bottom: 6vh ;
+    
+}
+
+#cont input{
+    font-size: 35px;
+
+}
+
+#cont textarea{
+    font-size: 35px;
+}
+
+.email{
+    color: black;
+    margin: 70px;
+    
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .sidebar{
+       display: none;   
+    }                                                                                                                                   
+
+    .profile a{
+      margin-left: -30%;
+    }
+
+    .main-content{
+        margin: 0;
+        padding: 5%;
+    }
+
+    h1, h2, h5{
+        font-size: 1.2em;
+        
+    }
+
+   
+
+
+    button{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* Reduzir o tamanho da sidebar */
+    .sidebar {
+        width: 15%;
+    }
+    
+    .main-content {
+        margin-left: 15%;
+    }
+
+    /* Diminuir tamanhos de fontes */
+    h1 {
+        font-size: 2em;
+    }
+    h2, h5, .texto1, .texto2 {
+        font-size: 1.5em;
+    }
+}
